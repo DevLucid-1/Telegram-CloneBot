@@ -4,7 +4,7 @@ from distutils.util import strtobool as stb
 
 # --------------------------------------
 BOT_TOKEN = "5050878266:AAG_Hf4d74efpFhFMGiWXDV3cnJDxSqaV2U"
-GDRIVE_FOLDER_ID = "1BgjsTex4b1lgwslWw92aV_45ng75Pu-E"
+GDRIVE_FOLDER_ID = "0ACZHp9gYKXoQUk9PVA"
 # Default folder id.
 OWNER_ID = 1339621541
 # Example: OWNER_ID = 619418070
@@ -13,7 +13,7 @@ AUTHORISED_USERS = [123,456,789,1339621541]
 INDEX_URL = ""
 IS_TEAM_DRIVE = True
 USE_SERVICE_ACCOUNTS = True
-USE_SERVICE_ACCOUNTS=True
+
 # --------------------------------------
 
 # dont edit below this >
