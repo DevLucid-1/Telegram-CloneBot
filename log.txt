@@ -1,0 +1,19 @@
+2021-12-09 23:00:04,796 - bot - INFO - Bot Started!
+2021-12-09 23:00:09,702 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-12-09 23:00:09,703 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/telegram/ext/updater.py", line 380, in _network_loop_retry
+    if not action_cb():
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/telegram/ext/updater.py", line 338, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/telegram/bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/telegram/bot.py", line 2136, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/telegram/utils/request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/telegram/utils/request.py", line 249, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
