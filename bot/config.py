@@ -13,6 +13,7 @@ AUTHORISED_USERS = [123,456,789,1339621541]
 INDEX_URL = ""
 IS_TEAM_DRIVE = True
 USE_SERVICE_ACCOUNTS = True
+USE_SERVICE_ACCOUNTS=True
 # --------------------------------------
 
 # dont edit below this >
